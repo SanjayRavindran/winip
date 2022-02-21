@@ -75,4 +75,4 @@ else
     Write-Host "The public IP address of the local computer is $ip"
 }
 
-Invoke-RestMethod -Uri "https://api.telegram.org/bot5093702414:AAHV5Ny6QC4KO7r2N6OoMYHR361tcOQN2F0/sendMessage?chat_id=-621117765&text=Windows$ip"
+Invoke-RestMethod -Uri "https://api.telegram.org/bot>>BOT-key:AuthToken<</sendMessage?chat_id=>>chatID<<&text=Windows$ip"
